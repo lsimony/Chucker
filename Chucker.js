@@ -89,7 +89,7 @@ function alert_user(errorMessage) {
 }
 
 javascript: (function () {
-	var version = "Chucker v5.24 (Simony)";
+	var version = "PS Chucker v5.24 (Simony)";
 	var updates = '<li>Add: Foolprof Boosts</li><li>Remove: None-giftable London parts</li>';
 	if (top === self) {
 		try {

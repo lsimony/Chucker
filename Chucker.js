@@ -89,8 +89,8 @@ function alert_user(errorMessage) {
 }
 
 javascript: (function () {
-	var version = "PS Chucker v5.24 (Simony)";
-	var updates = '<li>Add: Foolprof Boosts</li><li>Remove: None-giftable London parts</li>';
+	var version = "PS Chucker v5.25 (Simony)";
+	var updates = '<li>Add: New collections D7 & D8 - London</li>';
 	if (top === self) {
 		try {
 			if (navigator.appName == 'Microsoft Internet Explorer') {
@@ -706,7 +706,7 @@ javascript: (function () {
 			+ '<option value="6027">Constantine' 
 			+ '<option value="6028">Justinian';
 	
-	var london_collection = '<option value="QueueSet_48" style="color:rgb(255, 217, 39); font-size=25px;"><< LONDON COLLECTIONS >>' 
+	var london_collection = '<option value="QueueSet_64" style="color:rgb(255, 217, 39); font-size=25px;"><< LONDON COLLECTIONS >>' 
 		+ '<option value="QueueSet_7" style="color:#33FF00;"><< TRAINING DAY COLLECTION >>' 
 			+ '<option value="9001">Rubberized Medicine Ball' 
 			+ '<option value="9002">Skipping Rope' 
@@ -754,7 +754,23 @@ javascript: (function () {
 			+ '<option value="9039">Hologram' 
 			+ '<option value="9040">Earpiece' 
 			+ '<option value="9041">Mini Mic' 
-			+ '<option value="9042">Third Eye';
+			+ '<option value="9042">Third Eye'
+		+ '<option value="QueueSet_7" style="color:#33FF00;"><< Day Care Collection >>' 
+			+ '<option value="9043">Rubber Ducky' 
+			+ '<option value="9044">Pacifier' 
+			+ '<option value="9045">Bib' 
+			+ '<option value="9046">Rattle' 
+			+ '<option value="9047">Pram' 
+			+ '<option value="9048">Milk Bottle' 
+			+ '<option value="9049">Cradle' 
+		+ '<option value="QueueSet_7" style="color:#33FF00;"><< Credited Collection >>' 
+			+ '<option value="9050">Money Counter' 
+			+ '<option value="9051">Bank Box' 
+			+ '<option value="9052">Bank Token' 
+			+ '<option value="9053">Pass Book' 
+			+ '<option value="9054">ATM Card' 
+			+ '<option value="9055">Panic Button' 
+			+ '<option value="9056">Sealed Vault';
 	
 	var chicago_collection = '<option value="QueueSet_48" style="color:rgb(255, 217, 39); font-size=25px;"><< CHICAGO COLLECTIONS >>' 
 		+ '<option value="QueueSet_7" style="color:#33FF00;"><< CAR BONNETS COLLECTION >>' 

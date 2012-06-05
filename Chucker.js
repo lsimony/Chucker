@@ -89,8 +89,8 @@ function alert_user(errorMessage) {
 }
 
 javascript: (function () {
-	var version = "PS Chucker v5.25 (Simony)";
-	var updates = '<li>Add: New collections D7 & D8 - London</li>';
+	var version = "PS Chucker v5.27 (Simony)";
+	var updates = '<li>Add: Ahoy boosts</li>';
 	if (top === self) {
 		try {
 			if (navigator.appName == 'Microsoft Internet Explorer') {
@@ -5040,14 +5040,17 @@ javascript: (function () {
 
 	var boosts_list = '<option style="color:#33FF00;" value="QueueSet_63"><< ALL BOOSTS >>'
 		+ '<option style="color:#33FF00;" value="QueueSet_22">-- Special Boosts --' 
-			+ '<option value="101">Augmenter (2x Loot Missions)' 
+			+ '<option value="101">Augmenter (2x Loot Missions)'
+			+ '<option value="115">Double Loot (2x Loot)'
 			+ '<option value="98">Rob Squad (Rob Entire Board)' 
 			+ '<option value="107">Vitals Sight (+200% chance of robbing)'
 			+ '<option value="118">Sheriff Badge (+150% chance of robbing)'
 			+ '<option value="121">Cupid\'s Arrow (+150% chance of robbing)'
 			+ '<option value="124">Snake Venom (+150% chance of robbing)'
 			+ '<option value="127">Chatterbox (+150% chance of robbing)'
+			+ '<option value="130">Ship\'s wheel (+150% chance of robbing)'
 		+ '<option style="color:#33FF00;" value="QueueSet_22">-- Attack Boosts --' 
+			+ '<option value="128">Deck Chair (+130 Attack)'
 			+ '<option value="125">Whoopee Cushion (+130 Attack)'
 			+ '<option value="122">Green Beer (+130 Attack)'
 			+ '<option value="119">Red Rose (+130 Attack)'
@@ -5076,6 +5079,7 @@ javascript: (function () {
 			+ '<option value="31">Throwing Knives (+65 Attack)' 
 			+ '<option value="52">War Paint (+32 Attack)'
 		+ '<option style="color:#33FF00;" value="QueueSet_19">-- Defense Boosts --' 
+			+ '<option value="129">Wooden Oar (+130 Defense)'
 			+ '<option value="126">Whipped Cream Can (+130 Defense)'
 			+ '<option value="123">Pot of Gold (+130 Defense)'
 			+ '<option value="120">Candied Grenade Pin (+130 Defense)'
